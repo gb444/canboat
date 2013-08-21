@@ -1,0 +1,24 @@
+{
+	"RES_LAT_LONG_PRECISION": 10000000, /* 1e7 */
+	"RES_LAT_LONG":1.0e-7,
+	"RES_LAT_LONG_64": 1.0e-16,
+	"LEN_VARIABLE":0,
+	"RES_NOTUSED": 0,
+	"RES_DEGREES": 0.00572957795,		/* 1e-4 * RadianToDegree */
+	"RES_ROTATION": 0.001790493109,		/* 1e-3/32.0 * RadianToDegree */
+	"RES_ASCII": -1.0,
+	"RES_LATITUDE": -2.0,
+	"RES_LONGITUDE": -3.0,
+	"RES_DATE": -4.0,
+	"RES_TIME": -5.0,
+	"RES_TEMPERATURE": -6.0,
+	"RES_6BITASCII": -7.0,           /* Actually not used in N2K, only in N183 AIS */
+	"RES_INTEGER": -8.0,
+	"RES_LOOKUP": -9.0,
+	"RES_BINARY": -10.0,
+	"RES_MANUFACTURER": -11.0,
+	"RES_STRING": -12.0,
+	"RES_FLOAT": -13.0,
+	"RES_PRESSURE": -14.0,
+	"RES_STRINGLZ": -15.0,          /* ASCII string starting with length byte and terminated by zero byte */
+}

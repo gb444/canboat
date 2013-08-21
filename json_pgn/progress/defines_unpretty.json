@@ -1,0 +1,211 @@
+{
+	"LOOKUP_INDUSTRY_CODE":{
+		"4":"Marine"
+	},
+	"LOOKUP_SHIP_TYPE":{
+		"0":"unavailable",
+		"20":"Wing In Ground",
+		"29":"Wing In Ground (no other information)",
+		"30":"Fishing",
+		"31":"Towing",
+		"32":"Towing exceeds 200m or wider than 25m",
+		"33":"Engaged in dredging or underwater operations",
+		"34":"Engaged in diving operations",
+		"35":"Engaged in military operations",
+		"36":"Sailing",
+		"37":"Pleasure",
+		"40":"High speed craft",
+		"71":"High speed craft carrying dangerous goods",
+		"72":"High speed craft hazard cat B",
+		"73":"High speed craft hazard cat C",
+		"74":"High speed craft hazard cat D",
+		"79":"High speed craft (no additional information)",
+		"50":"Pilot vessel",
+		"51":"SAR",
+		"52":"Tug",
+		"53":"Port tender",
+		"54":"Anti-pollution",
+		"55":"Law enforcement",
+		"56":"Spare",
+		"57":"Spare #2",
+		"58":"Medical",
+		"59":"RR Resolution No.18",
+		"60":"Passenger ship",
+		"69":"Passenger ship (no additional information)",
+		"70":"Cargo ship",
+		"71":"Cargo ship carrying dangerous goods",
+		"72":"Cargo ship hazard cat B",
+		"73":"Cargo ship hazard cat C",
+		"74":"Cargo ship hazard cat D",
+		"79":"Cargo ship (no additional information)",
+		"80":"Tanker",
+		"81":"Tanker carrying dangerous goods",
+		"82":"Tanker hazard cat B",
+		"83":"Tanker hazard cat C",
+		"84":"Tanker hazard cat D",
+		"89":"Tanker (no additional information)",
+		"90":"Other",
+		"91":"Other carrying dangerous goods",
+		"92":"Other hazard cat B",
+		"93":"Other hazard cat C",
+		"94":"Other hazard cat D",
+		"99":"Other (no additional information)"
+		
+	},
+	"LOOKUP_DEVICE_CLASS":{
+		"0":"Reservedfor2000Use",
+		"10":"Systemtools",
+		"20":"Safetysystems",
+		"25":"Internetworkdevice",
+		"30":"ElectricalDistribution",
+		"35":"ElectricalGeneration",
+		"40":"SteeringandControlsurfaces",
+		"50":"Propulsion",
+		"60":"Navigation",
+		"70":"Communication",
+		"75":"SensorCommunicationInterface",
+		"80":"Instrumentation/generalsystems",
+		"85":"ExternalEnvironment",
+		"90":"InternalEnvironment",
+		"100":"Deck,cargoandfishingequipmentsystems",
+		"120":"Display",
+		"125":"Entertainment"
+		
+	},
+	"LOOKUP_REPEAT_INDICATOR":{
+		"0":"Initial",
+		"1":"First retransmission",
+		"2":"Second retransmission",
+		"3":"Final retransmission"
+		
+	},
+	"LOOKUP_AIS_TRANSCIEVER":{
+		"0":"Channel A VDL reception",
+		"1":"Channel B VDL reception",
+		"2":"Channel A VDL transmission",
+		"3":"Channel B VDL transmission",
+		"4":"Own information not broadcast",
+		"5":"Reserved"
+	},
+	"LOOKUP_ENGINE_INSTANCE":{
+		"0":"Single Engine or Dual Engine Port",
+		"1":"Dual Engine Starboard"
+	},
+	"LOOKUP_GEAR_STATUS":{
+		"0":"Forward",
+		"1":"Neutral",
+		"2":"Reverse",
+		"3":"Unknown"
+	},
+	"LOOKUP_POSITION_ACCURACY":{
+		"0":"Low",
+		"1":"High"
+	},
+	"LOOKUP_RAIM_FLAG":{
+		"0":"not in use",
+		"1":"in use"
+	},
+	"LOOKUP_TIME_STAMP":{
+		"60":"Not available",
+		"61":"Manual input mode",
+		"62":"Dead reckoning mode",
+		"63":"Positioning system is inoperative"
+	},
+	"LOOKUP_GNS_AIS":{
+		"0":"undefined",
+		"1":"GPS",
+		"2":"GLONASS",
+		"3":"GPS+GLONASS",
+		"4":"Loran-C",
+		"5":"Chayka",
+		"6":"integrated",
+		"7":"surveyed",
+		"8":"Galileo"
+	},
+	"LOOKUP_GNS":{
+		"0":"GPS",
+		"1":"GLONASS",
+		"2":"GPS+GLONASS",
+		"3":"GPS+SBAS/WAAS",
+		"4":"GPS+SBAS/WAAS+GLONASS",
+		"5":"Chayka",
+		"6":"integrated",
+		"7":"surveyed",
+		"8":"Galileo"
+	},
+	"LOOKUP_GNS_METHOD":{
+		"0":"no GNSS",
+		"1":"GNSS fix",
+		"2":"DGNSS fix",
+		"3":"Precise GNSS",
+		"4":"RTK Fixed Integer",
+		"5":"RTK float",
+		"6":"Estimated (DR) mode",
+		"7":"Manual Input",
+		"8":"Simulate mode"
+	},
+	"LOOKUP_GNS_INTEGRITY":{
+		"0":"No integrity checking",
+		"1":"Safe",
+		"2":"Caution"
+	},
+	"LOOKUP_SYSTEM_TIME":{
+		"0":"GPS",
+		"1":"GLONASS",
+		"2":"Radio Station",
+		"3":"Local Cesium clock",
+		"4":"Local Rubidium clock",
+		"5":"Local Crystal clock"
+	},
+	"LOOKUP_MAGNETIC_VARIATION":{
+		"0":"Manual",
+		"1":"Automatic Chart",
+		"2":"Automatic Table",
+		"3":"Automatic Calculation",
+		"4":"WMM 2000",
+		"5":"WMM 2005",
+		"6":"WMM 2010",
+		"7":"WMM 2015",
+		"8":"WMM 2020"
+		
+	},
+	"LOOKUP_RESIDUAL_MODE":{
+		"0":"Autonomous",
+		"1":"Differential enhanced",
+		"2":"Estimated",
+		"3":"Simulator",
+		"4":"Manual"
+	},
+	"LOOKUP_WIND_REFERENCE":{
+		"0":"True (ground referenced to North)",
+		"1":"Magnetic (ground referenced to Magnetic North)",
+		"2":"Apparent",
+		"3":"True (boat referenced)",
+		"4":"True (water referenced)"
+	},
+	"LOOKUP_YES_NO":{
+		"0":"No",
+		"1":"Yes"
+	},
+	"LOOKUP_DIRECTION_REFERENCE":{
+		"0":"True",
+		"1":"Magnetic"
+	},
+	"LOOKUP_NAV_STATUS":{
+		"0":"Under way using engine",
+		"1":"At anchor",
+		"2":"Not under command",
+		"3":"Restricted manoeuverability",
+		"4":"Constrained by her draught",
+		"5":"Moored",
+		"6":"Aground",
+		"7":"Engaged in Fishing",
+		"8":"Under way sailing"
+	},
+	"LOOKUP_POWER_FACTOR":{
+		"0":"Leading",
+		"1":"Lagging",
+		"2":"Error"
+	}
+	
+}

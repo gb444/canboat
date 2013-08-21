@@ -1,0 +1,20 @@
+{
+	0:"Reservedfor2000Use",
+	10:"Systemtools",
+	20:"Safetysystems",
+	25:"Internetworkdevice",
+	30:"ElectricalDistribution",
+	35:"ElectricalGeneration",
+	40:"SteeringandControlsurfaces",
+	50:"Propulsion",
+	60:"Navigation",
+	70:"Communication",
+	75:"SensorCommunicationInterface",
+	80:"Instrumentation/generalsystems",
+	85:"ExternalEnvironment",
+	90:"InternalEnvironment",
+	100:"Deck,cargoandfishingequipmentsystems",
+	120:"Display",
+	125:"Entertainment",
+	
+}

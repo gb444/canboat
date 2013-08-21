@@ -1,0 +1,25 @@
+The files are stored in valid JSON.
+
+The defines.json file stores all of the #defines from pgn.h as a dictionary.
+ Some of those which were strung together text in the format: ",1=...,2=..." have 
+ been reformatted as dictionary look up of the numbers.
+ 
+The pgns.json file stores all the pgns from pgnList (pgn.h).
+Pgns look as such:
+{ "dsc": description string,
+"pgn": pgn number,
+"known": known boolean (Are we pretty sure we've got all fields with correct definitions?),
+"size": size number ((Minimal) size of this PGN. Helps to determine fast/single frame and initial malloc)
+"reptFld": repeatingFields number(How many fields at the end repeat until the PGN is exhausted?)
+"fldLst": fieldList[] array of type Field
+}
+
+Fields look as such:
+{"name":name string,
+"size":size number(bits) or string "1B2b" = 1 byte and 2 bits,
+"res": resolution number(float or special),
+"sign": hasSign boolean,
+"units": units string,
+"dsc":description string,
+"ofst": offset number
+}
